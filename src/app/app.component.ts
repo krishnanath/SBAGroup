@@ -1,4 +1,8 @@
 import { Component } from '@angular/core';
+// import '../assets/js/script.js';
+
+// declare var globalstyle: any;
+
 
 @Component({
   selector: 'app-root',

@@ -121,8 +121,18 @@
               "devServerTarget": "SBAGroup:serve:production"
             }
           }
+        },
+        "deploy": {
+          "builder": "angular-cli-ghpages:deploy",
+          "options": {
+            "baseHref":"https://krishnanath.github.io/SBAGroup/",
+            "repo": "https://github.com/krishnanath/SBAGroup.git",
+            "name": "krishnanath",
+            "email":"malykrishna@gmail.com"
+          }
         }
       }
-    }},
+    }
+  },
   "defaultProject": "SBAGroup"
 }
