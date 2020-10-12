@@ -1,0 +1,24 @@
+@import '../../assets/css/style.css';
+@import '../../assets//css/bootstrap.css';
+
+ 
+@media screen and (min-width: 568px) {
+.rd-navbar-aside{
+     height: 111px;
+ }
+}
+@media screen and (max-width: 568px) {
+    .rd-navbar-aside{
+         height: 0;
+     }
+    }
+
+
+    .rd-nav-link {
+        text-decoration:  none !important;
+    }
+
+
+    .rd-navbar-nav-wrap{
+        margin-top:11px;
+    }
